@@ -1,3 +1,8 @@
+###
+
+To start the code, please use the command ./run-cmd <posX> <posY> <posZ> <maxVel> <dT>
+Note that dT is in ms.
+
 # System description: 
 
 A flying robot is considered as a simple point translating in the environment (3 DOF). This robot has a maximum velocity but we suppose that an infinite acceleration is possible and the system has no delay. The environment imposes no constraint, so robot movements in the world perfectly reflect the command. At start, the robot is at a predefined initial position in the environment and it does not move.
